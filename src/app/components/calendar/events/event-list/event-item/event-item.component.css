@@ -1,0 +1,57 @@
+#eventName{
+    font-weight: bold;
+    margin-bottom: 0;
+    display: inline;
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#eventTime{
+    text-align: center !important;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#eventLocation span{
+    color: #5A6066;
+}
+
+#secondEventDiv div button{
+    display: inline-flex;
+    float: right;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: -8px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #ED4545;
+    border-radius: 2px;
+    border: 0;
+}
+
+#descDiv{
+    background-color: #EDEFF0;
+    display: inline-block; 
+    margin: 10px; 
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#eventDesc{
+    color: #5A6772;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#descRow{
+    margin: 0;
+    overflow: hidden;
+}

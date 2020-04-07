@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>SCHEDULE</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>{{scheduleText}} <strong>{{numberOfItems}} events</strong> today.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <div class="row text-center">
+                    <div class="col-6">
+                        <span><i [class]="weatherIcon" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="col-6">
+                        <h1>{{main}}</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row text-center">
+                    <div class="col-6">
+                        <span><i class="{{thermometer}}" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="col-6">
+                        <h1>{{celsius}} °C</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>{{scheduleDetails}} with temperatures between {{temp_min}}°C and {{temp_max}}°C degrees.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="row text-center">
+  <h3>Add event: </h3>
+  <div id="formDiv" class="col-md-12">
+    <form [formGroup]="eventForm" (ngSubmit) = "addEvent()">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" id="time" name="time" class="custom-control" placeholder="Enter time (hh:mm)" formControlName="time">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" id="title" name="title" class="custom-control"  placeholder="Enter title" formControlName="title">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" id="location" name="location" class="custom-control"  placeholder="Enter location" formControlName="location">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <textarea id="description" name="description" class="custom-control"  placeholder="Enter description(Optional)" rows="" cols="22" formControlName="description"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="button-cancel" (click) = "onCancel()">Cancel</button>
+            <button type="submit" class="button-save" [disabled] = "!eventForm.valid" >Save</button>
+          </div>
+      </div>
+    </form>
+  </div>
+</div>

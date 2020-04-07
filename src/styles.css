@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+#animatedDiv{
+    position: relative;
+}
+
+#animatedDiv > *{
+    display: block;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+.wrapper{
+  padding: 1.5em;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+html{
+  height: 100vh !important;
+}
+
+body{
+    height: 100vh !important;
+    background-image: url(assets/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+}
+
+#body-container{
+
+  transition: .3s;
+  position: relative;
+  border-radius: 10px;
+}
+
+#body-container:after{
+  content: "";
+  opacity: 0.83;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration-line: none;
+}

@@ -1,0 +1,54 @@
+h3{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#formDiv{
+    margin-top: 20px;
+}
+
+.button-cancel{
+    border: 0;
+    border-radius: 2px;
+    background-color: #8C3551;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.button-save{
+    border: 0;
+    border-radius: 2px;
+    background-color: #30826C;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.button-save:disabled{
+    background-color: #93DBA7;
+}
+
+.custom-control{
+    background-color: #EDEFF0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: 2px solid #EDEFF0;
+    transition: height .6s, .4s;
+}
+
+.custom-control::placeholder{
+    font-weight: bolder;
+    color: #ACB2B3;
+}
+
+.custom-control:focus{
+    background: white;
+    border: 2px solid #EDEFF0;
+    color: #3E474F;
+    font-weight: bold;
+}
+
+

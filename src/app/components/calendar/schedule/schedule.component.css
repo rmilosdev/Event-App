@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200&display=swap');
+h3{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 200;
+    float: left;
+}
+
+span i{
+    font-size: 50px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.col-6{
+    padding: 0;
+}

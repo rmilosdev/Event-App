@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-9">
+    <h3>TODAY: </h3>
+    <app-events></app-events>
+    <div id="buttonDiv">
+        <button id="addEventButton" type="button" (click) = "onEventAdd()">Add event</button>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <!-- Ovde  dolazi weather app ili forma za dodavanje novog eventa-->
+    <div id="animatedDiv" [@routeAnimations] = "getDepth(outlet)" >
+        <router-outlet #outlet = "outlet"></router-outlet>
+    </div>
+  </div>
+</div>
